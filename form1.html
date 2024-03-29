@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+
+	<body style="background-color:azure; background-size: 1000px 100px;"/>
+		<div>
+			<h1 style="text-align: center;" >Survey Form</h1>	
+		</div>
+
+		<div style="background-color:white">
+			<p style="text-align: center;"> Let us know how we can improve freeCodeCamp</p>
+
+			<form style="text-align: center;">
+				<label>* Name:</label>
+				<input type="text" pattern="[a-z A-Z]{2,30}" required/><br/><br/>
+				<label>* Email:</label>
+				<input type="email" required/><br/><br/>
+				<label>* Age:</label>
+				<input type="number" required/><br/><br/>
+				<label>Which option best describes your current role? &nbsp; </label>
+				<select>
+					<option>student</option>
+					<option>worker</option>
+					<option>unemployed</option>
+					<option>retiree</option>
+				</select> <br/><br/>
+
+			
+				<span><label>How likely is that you would recommend <br/> freeCodeCamp to a friend? &nbsp;</label><br/>
+				<div style="text-align: justify;"><label><input type="radio" name="recommend" value="Definitely"/>Definitely</label><br/>
+				<label><input type="radio" name="recommend" value="Maybe"/>Maybe</label><br/>
+				<label><input type="radio" name="recommend" value="Not Sure"/>Not Sure</label><br/><br/></div></span>
+				
+
+				<label>What do you like most in FCC?: &nbsp;</label>
+				<select>
+					<option>select an option</option>
+					<option>excellent courses</option>
+					<option>brilliant instructors</option>
+					<option>free courses</option>
+					<option>beautiful interface</option>
+				</select><br/><br/>
+				
+				<label>Things that should be improved in the future <br/> (Check all that apply): </label><br/>
+				<input type="checkbox" name="area to improve" value="Front-end Projects"/>
+					<label for="front-end-projects">Front-end Projects</label><br/>
+				<input type="checkbox" name="area to improve" value="Back-end Projects"/>
+					<label for="back-end-projects">Back-end Projects</label><br/>
+				<input type="checkbox" name="area to improve" value="Data Visualization"/>
+					<label for="data visualization">Data Visualization</label>
+				
+			</form>
+
+		</div>
+
+	</body>
+
+
+
+</html>
